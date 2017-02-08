@@ -1,10 +1,13 @@
-package it.englab.androidcourse.helloworldapplication;
+package it.englab.androidcourse.helloworldapplication.activity;
 
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+
+import it.englab.androidcourse.helloworldapplication.R;
+import it.englab.androidcourse.helloworldapplication.broadcastreceiver.MyBroadcastReceiver;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package it.englab.androidcourse.helloworldapplication;
+package it.englab.androidcourse.helloworldapplication.broadcastreceiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
