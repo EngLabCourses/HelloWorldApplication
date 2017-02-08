@@ -9,6 +9,19 @@ public class MyService extends Service {
     }
 
     @Override
+    public void onCreate() {
+        super.onCreate();
+
+        // TODO: Add code for Service
+    }
+
+    @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        //invoked by a startService()
+        return super.onStartCommand(intent, flags, startId);
+    }
+
+    @Override
     public IBinder onBind(Intent intent) {
         // TODO: Return the communication channel to the service.
         throw new UnsupportedOperationException("Not yet implemented");
