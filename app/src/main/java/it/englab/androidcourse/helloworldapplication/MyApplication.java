@@ -11,5 +11,7 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+
+        //Solitamente qui sono inserite le inizializzazioni delle librerie
     }
 }

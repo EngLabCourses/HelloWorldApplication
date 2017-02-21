@@ -17,12 +17,13 @@ public class MyService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        //invoked by a startService()
+        //metodo invocato da startService()
         return super.onStartCommand(intent, flags, startId);
     }
 
     @Override
     public IBinder onBind(Intent intent) {
+        //metodo invocato da bindService()
         // TODO: Return the communication channel to the service.
         throw new UnsupportedOperationException("Not yet implemented");
     }

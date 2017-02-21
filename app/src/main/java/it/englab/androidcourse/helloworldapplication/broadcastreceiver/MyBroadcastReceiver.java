@@ -15,7 +15,9 @@ public class MyBroadcastReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
+        //recuperiamo l'action dell'evento ricevuto per poi implementare logiche specifiche in base all'azione ricevuta
         String action = intent.getAction();
+        //il receiver riceve eventi con action ACTION_BOOT_COMPLETED o ACTION_AIRPLANE_MODE_CHANGED
         if (Intent.ACTION_BOOT_COMPLETED.equals(action)) {
             Log.d(TAG, "ACTION_BOOT_COMPLETED");
         } else if (Intent.ACTION_AIRPLANE_MODE_CHANGED.equals(action)) {
